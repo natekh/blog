@@ -1,0 +1,14 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    {% comment %} <link rel="shortcut icon" type="image/png" href="{% static 'favicon.png' %}"/> {% endcomment %}
+    <title>Blog</title>
+  </head>
+  <body>
+    <h1>{{message}}</h1>
+  </body>
+</html>
